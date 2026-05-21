@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: guestbook
+        image: ghcr.io/nomutilisateur2000/guestbook-gitops:main-2d2d97c
         ports:
         - containerPort: 5000
           name: http
